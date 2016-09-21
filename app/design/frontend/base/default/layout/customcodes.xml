@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<layout version="0.1.0">
+	<default>
+		<reference name="head">
+			<block type="customcodes/css"/>
+		</reference>
+		<reference name="before_body_end">
+			<block type="customcodes/js"/>
+		</reference>
+	</default>
+</layout>

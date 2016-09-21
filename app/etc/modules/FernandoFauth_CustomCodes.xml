@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <FernandoFauth_CustomCodes>
+            <active>true</active>
+            <codePool>local</codePool>
+        </FernandoFauth_CustomCodes>
+    </modules>
+</config>

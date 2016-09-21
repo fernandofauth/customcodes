@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<config>
+	<sections>
+		<customcodes_options translate="label" module="customcodes">
+			<label>Custom Codes</label>
+            <tab>codzen_config</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>2</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+			<groups>
+				<custom_css translate="label">
+                    <label>Custom CSS</label>
+                    <sort_order>1</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <css_text translate="label">
+                            <label>CSS</label>
+                            <frontend_type>textarea</frontend_type>
+                            <sort_order>0</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment>Cole aqui o css customizado.</comment>
+                        </css_text>
+                    </fields>
+                </custom_css>
+				<custom_js translate="label">
+                    <label>Custom JS</label>
+                    <sort_order>2</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <js_text translate="label">
+                            <label>JS</label>
+                            <frontend_type>textarea</frontend_type>
+                            <sort_order>0</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment>Cole aqui o javascript customizado.</comment>
+                        </js_text>
+                    </fields>
+                </custom_js>
+			</groups>
+		</customcodes_options>
+	</sections>
+</config>
