@@ -1,9 +1,15 @@
 <?xml version="1.0"?>
 <config>
+	<tabs>
+        <customcodes_tab>
+            <label>Fernando Fauth</label>
+            <sort_order>1</sort_order>
+        </customcodes_tab>
+    </tabs>
 	<sections>
 		<customcodes_options translate="label" module="customcodes">
 			<label>Custom Codes</label>
-            <tab>codzen_config</tab>
+            <tab>customcodes_tab</tab>
             <frontend_type>text</frontend_type>
             <sort_order>2</sort_order>
             <show_in_default>1</show_in_default>
